@@ -6,7 +6,7 @@ public class Debug {
 		int sum = calc.add(10, 20);
 		System.out.println("the sum is--"+sum);
 
-		throw new NullPointerException();
+		
 	}
 
 }
