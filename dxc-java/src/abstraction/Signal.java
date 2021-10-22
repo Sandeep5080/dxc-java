@@ -5,12 +5,12 @@ public class Signal {
 
 		public static void main(String[] args) {
 		
-			Tv sListener = new Remote();
+			Tv s = new Remote();
 					
-			sListener.Tvon();
-			sListener.TvOff();
-			sListener.Tvpower(12);
-			sListener.TvAv();
+			s.Tvon();
+			s.TvOff();
+			s.Tvpower(12);
+			s.TvAv();
 		}
 
 
